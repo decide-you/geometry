@@ -6,15 +6,28 @@
 using namespace std;
 
 int main () {
+
     char s[80];
-    string shape;
+    float r, area;
+    int k, x, y;
+    string shape, cr;
     cout << "Enter a shape, set its values"<<endl;
     cin.getline (s, 80);
-    for (int i = 0; s[i] != '\0'; i++) // Вывод данных фигуры
+    for (int i = 0; s[i] != '\0'; i++) { // Вывод данных фигуры
         cout << s[i] ;
+        if (s[i] == ',') {
+            k = i+2;
+            while (s[k] != ')') {
+                cr += s[k];
+                k++;
+            }
+        }
+    }
     cout <<endl;
-    for (int i = 0; s[i] != ' '; i++) // Запоминаем название фигуры
+    for (int i = 0; s[i] != '('; i++) // Запоминаем название фигуры
         shape +=s[i];
-    cout << shape <<endl;
+    r = stof (cr);
+    cout << shape << " " << r<<endl;
+
     return 0;
 }
