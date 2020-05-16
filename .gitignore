@@ -1,5 +1,36 @@
-#Object files
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
 *.o
-#Libraries
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
 *.a
-main
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+bin/program
+bin/program_test
+out.txt
+words.txt
