@@ -1,6 +1,7 @@
 #include <cmath>
 #include <iostream>
 #include <stdlib.h>
+#include <string>
 using namespace std;
 void inpsh(
         char s[],
