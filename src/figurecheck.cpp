@@ -13,7 +13,7 @@ void inpsh(
         int& y1,
         int& y2,
         int& y3,
-        float& r)
+        int& r)
 {
     string cr, cx, cy, cxt, cxt2, cxt3, cyt, cyt2, cyt3, shape;
     int i = 0;

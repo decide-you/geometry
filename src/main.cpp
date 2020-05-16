@@ -11,7 +11,7 @@ int main()
 {
     char s1[50];
     char s2[50];
-    float r;
+    int r;
     int x = 0, y = 0, x1 = 0, x2 = 0, x3 = 0, y1 = 0, y2 = 0, y3 = 0, numb = 1;
     string shape;
     cout << "Enter a 1st, 2nd shape, set its values" << endl;

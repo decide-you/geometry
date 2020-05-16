@@ -11,7 +11,7 @@ void Print(
         int y1,
         int y2,
         int y3,
-        float r,
+        int r,
         int& numb)
 {
     int i = 0;
