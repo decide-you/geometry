@@ -39,7 +39,7 @@ void inpsh(
         }
         x = atoi(cx.c_str());
         y = atoi(cy.c_str());
-        r = stof(cr);
+        r = atoi(cr);
     } else if (shape == "triangle") {
         i = 10;
         while (s[i] != ' ') {
